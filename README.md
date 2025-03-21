@@ -85,7 +85,20 @@ CREATED BY NOYON BISWAS
 </LinearLayout>
 
   ```
+# Step 3:
 
+Drawable/dailog_backgound.xml
+## shape rakben
+
+```bash
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+</shape>
+
+```
 
    
   ## Open Theme.xml 
