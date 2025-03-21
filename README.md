@@ -110,12 +110,14 @@ Drawable/dailog_backgound.xml
 <resources xmlns:tools="http://schemas.android.com/tools">
 
 
-    <!-- In res/values/styles.xml -->
-    <style name="Dialog">
-          <item name="android:windowBackground">@drawable/empty_background</item>
-         <item name="windowNoTitle">true</item>
-         <item name="windowMinWidthMajor">80%</item>
-         <item name="windowActionBar">false</item>
+   <style name="Dialog"  >
+        <item name="android:windowBackground">@drawable/dailog_backgound</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
     </style>
 </resources>
 
