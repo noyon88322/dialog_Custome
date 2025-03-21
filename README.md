@@ -98,11 +98,11 @@ CREATED BY NOYON BISWAS
 
 
     <!-- In res/values/styles.xml -->
-    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog">
-        <item name="android:windowBackground">@android:color/white</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:backgroundDimEnabled">true</item>
+    <style name="Dialog">
+          <item name="android:windowBackground">@drawable/empty_background</item>
+         <item name="windowNoTitle">true</item>
+         <item name="windowMinWidthMajor">80%</item>
+         <item name="windowActionBar">false</item>
     </style>
 </resources>
 
